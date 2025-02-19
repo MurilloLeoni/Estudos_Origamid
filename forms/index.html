@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulários</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="./">
+      <label for="name">Nome: </label>
+      <input id="name" type="text" name="name" />
+
+      <label for="password">Senha: </label>
+      <input type="text" id="password" name="password" />
+
+      <label for="email">Email: </label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="cpf">Email: </label>
+      <input
+        type="number"
+        id="cpf"
+        name="cpf"
+        placeholder="000.000.000-00"
+        required
+      />
+
+      <label for="age">Idade: </label>
+      <input type="number" id="age" name="age" />
+
+      <label for="exit">Saída do Hotel: </label>
+      <input type="date" id="exit" name="exit" />
+
+      <div class="checkbox">
+        <input type="checkbox" id="terms" name="terms" />
+        <label for="terms">Li e aceito os termos.</label>
+      </div>
+
+      <div class="checkbox">
+        <input type="checkbox" id="newsletter" name="newsletter" />
+        <label for="newsletter">Desejo receber a newsletter.</label>
+      </div>
+
+      <label for="installments">Parcelas:</label>
+      <select name="installments" id="installments">
+        <option value="1">1x de R$ 200</option>
+        <option value="2">2x de R$ 100</option>
+        <option value="3">4x de R$ 50</option>
+      </select>
+
+      <button>Enviar</button>
+    </form>
+  </body>
+</html>

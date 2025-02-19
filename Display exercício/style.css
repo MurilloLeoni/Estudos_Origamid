@@ -1,0 +1,49 @@
+body{
+    font-family: Arial;
+    margin: 50px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.blocks{
+    background-color: #111;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+h2{
+    color: #fff;
+    margin: 0px;
+}
+
+p{
+    color: #b2b2b2;
+}
+
+.yellow{
+    color: #febe01;
+}
+
+button{
+    border-radius: 4px;
+    background-color: #febe01;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.text-button{
+    color: #332200;
+}
+
+a{
+    display: inline-block;
+    background-color: #febe01;
+    color: #332200;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none; 
+}

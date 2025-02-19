@@ -1,0 +1,44 @@
+.minmax {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  
+  .galeria {
+    grid-template-columns: repeat(auto-fit, 150px);
+  }
+  
+  div {
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  p {
+    font-size: 2rem;
+  }
+  
+/* 
+  div {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  
+  @media (min-width: 300px) {
+    div img {
+      order: 2;
+    }
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  p {
+    font-size: 2rem;
+  } */
