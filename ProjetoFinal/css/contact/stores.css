@@ -61,7 +61,7 @@
 }
 
 @media (max-width: 600px) {
-    .stores {
-      grid-template-columns: 1fr;
-    }
+  .stores {
+    grid-template-columns: 1fr;
   }
+}
