@@ -8,6 +8,8 @@
 @import "./utilities/typography.css";
 @import "./utilities/colors.css";
 @import "./utilities/form.css";
+@import "./utilities/animation.css";
+
 
 /* Home */
 @import "./home/introduction.css";

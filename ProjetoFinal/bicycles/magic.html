@@ -12,6 +12,9 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
   </head>
   <body id="bicycle">
     <header class="header-bg">
@@ -41,9 +44,9 @@
       </div>
       <div class="bicycle container">
         <div class="bicycle-images">
-          <img src="../img/bicicleta/nimbus2.jpg" alt="" />
-          <img src="../img/bicicleta/nimbus1.jpg" alt="" />
-          <img src="../img/bicicleta/nimbus3.jpg" alt="" />
+          <img src="../img/bicicleta/nimbus2.jpg" alt="bike 1" />
+          <img src="../img/bicicleta/nimbus1.jpg" alt="bike 2" />
+          <img src="../img/bicicleta/nimbus3.jpg" alt="bike 3" />
         </div>
         <div class="bicycle-content">
           <p class="font-2-l color-5">
@@ -52,7 +55,9 @@
             velocidade.
           </p>
           <div class="bicycle-buy">
-            <a class="btn" href="../budget.html">Compra Agora</a>
+            <a class="btn" href="../budget.html?type=bikcraft&product=magic"
+              >Compra Agora</a
+            >
             <span class="font-1-xs color-6"
               ><img src="../img/icones/entrega.svg" alt="" />entrega em 5
               dias</span
@@ -188,5 +193,6 @@
         </p>
       </div>
     </footer>
+    <script src="../js/script.js"></script>
   </body>
 </html>
